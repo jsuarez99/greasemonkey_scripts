@@ -2,7 +2,7 @@
 // @name        Sort Yelp By Date
 // @namespace   yelp-sort
 // @description Automatically sort any yelp page reviews by date (instead of fishy yelp sort)
-// @include     *.yelp.com/*
+// @include     *.yelp.com/biz/*
 // @exclude     *.yelp.com/*sort_by=date_desc
 // @version     1
 // @grant       none
