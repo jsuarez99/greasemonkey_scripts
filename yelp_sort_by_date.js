@@ -3,7 +3,7 @@
 // @namespace   yelp-sort
 // @description Automatically sort any yelp page reviews by date (instead of fishy yelp sort)
 // @include     *.yelp.com/*
-// @exclude     *.yelp.com/*?sort_by=date_desc
+// @exclude     *.yelp.com/*sort_by=date_desc
 // @version     1
 // @grant       none
 // ==/UserScript==
@@ -12,7 +12,7 @@
 var curUrl = window.location.toString();
 
 //Just in case the exclude didnt work
-if(curUrl.indexOf("?sort_by=date_desc") > -1){
+if(curUrl.indexOf("sort_by=date_desc") > -1){
   return;
 }
 //move to the date_desc search
