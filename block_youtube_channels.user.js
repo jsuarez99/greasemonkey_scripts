@@ -1,4 +1,4 @@
-/ ==UserScript==
+// ==UserScript==
 // @name     Block Youtube Channels
 // @description Remove unwanted channels from appearing in youtube search results
 // @version  1
